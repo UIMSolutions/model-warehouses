@@ -1,5 +1,5 @@
-module models.warehouse.entities;
+module models.warehouses.entities;
 
-public import models.warehouse.entities.containers;
-public import models.warehouse.entities.inbounds;
-public import models.warehouse.entities.inventories;
+public import models.warehouses.entities.containers;
+public import models.warehouses.entities.inbounds;
+public import models.warehouses.entities.inventories;

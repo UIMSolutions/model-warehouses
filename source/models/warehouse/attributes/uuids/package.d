@@ -1,4 +1,4 @@
-module models.warehouse.attributes.uuids;
+module models.warehouses.attributes.uuids;
 
-public import models.warehouse.attributes.uuids.entities;
-public import models.warehouse.attributes.uuids.relationsships;
+public import models.warehouses.attributes.uuids.entities;
+public import models.warehouses.attributes.uuids.relationsships;

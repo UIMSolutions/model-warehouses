@@ -1,7 +1,7 @@
-module models.warehouse.entities.containers.mixingconstraintbase;
+module models.warehouses.entities.containers.mixingconstraintbase;
 
 @safe:
-import models.warehouse;
+import models.warehouses;
 
 class DWMSContainerMixingConstraintBaseEntity : DOOPEntity {
   mixin(EntityThis!("WMSContainerMixingConstraintBaseEntity"));

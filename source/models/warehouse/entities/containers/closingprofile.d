@@ -1,10 +1,10 @@
-module models.warehouse.entities.containers.closingprofile;
+module models.warehouses.entities.containers.closingprofile;
 
 @safe:
-import models.hcm;
+import models.warehouses;
 
-class DWMSContainerClosingProfileEntity : DOOPEntity {
-  mixin(EntityThis!("WMSContainerClosingProfileEntity"));
+class DContainerClosingProfileEntity : DOOPEntity {
+  mixin(EntityThis!("ContainerClosingProfileEntity"));
 
   override void initialize() {
     super.initialize;
@@ -40,12 +40,12 @@ class DWMSContainerClosingProfileEntity : DOOPEntity {
       .registerPath("warehouse_containers.closingprofiles");
   }
 }
-mixin(EntityCalls!("WMSContainerClosingProfileEntity"));
+mixin(EntityCalls!("ContainerClosingProfileEntity"));
 
 version(test_model_warehouse) {
   unittest {
-    assert(WMSContainerClosingProfileEntity);
+    assert(ContainerClosingProfileEntity);
   
-    auto entity = WMSContainerClosingProfileEntity;
+    auto entity = ContainerClosingProfileEntity;
   }
 }

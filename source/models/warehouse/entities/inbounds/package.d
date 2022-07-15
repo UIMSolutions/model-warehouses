@@ -1,2 +1,2 @@
-module models.warehouse.entities.inbounds;
+module models.warehouses.entities.inbounds;
 

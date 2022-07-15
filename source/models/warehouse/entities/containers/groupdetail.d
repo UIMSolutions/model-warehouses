@@ -1,7 +1,7 @@
-module models.warehouse.entities.containers.groupdetail;
+module models.warehouses.entities.containers.groupdetail;
 
 @safe:
-import models.warehouse;
+import models.warehouses;
 
 class DWMSContainerGroupDetailEntity : DOOPEntity {
   mixin(EntityThis!("WMSContainerGroupDetailEntity"));

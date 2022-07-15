@@ -1,2 +1,2 @@
-module models.warehouse.entities.inventories;
+module models.warehouses.entities.inventories;
 

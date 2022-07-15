@@ -1,3 +1,3 @@
-module models.warehouse.attributes;
+module models.warehouses.attributes;
 
-public import models.warehouse.attributes.uuids;
+public import models.warehouses.attributes.uuids;

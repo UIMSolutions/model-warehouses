@@ -1,7 +1,7 @@
-module models.warehouse.entities.containers.buildtemplate;
+module models.warehouses.entities.containers.buildtemplate;
 
 @safe:
-import models.warehouse;
+import models.warehouses;
 
 class DWMSContainerBuildTemplate : DOOPEntity {
   mixin(EntityThis!("WMSContainerBuildTemplate"));

@@ -1,2 +1,2 @@
-module models.warehouse.attributes.uuids.entities;
+module models.warehouses.attributes.uuids.entities;
 

@@ -1,2 +1,2 @@
-module models.warehouse.attributes.uuids.relationsships;
+module models.warehouses.attributes.uuids.relationsships;
 

@@ -1,4 +1,4 @@
-module models.warehouse;
+module models.warehouses;
 
-public import models.warehouse.attributes;
-public import models.warehouse.entities;
+public import models.warehouses.attributes;
+public import models.warehouses.entities;

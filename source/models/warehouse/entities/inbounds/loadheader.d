@@ -1,7 +1,7 @@
-module models.warehouse.entities.inbounds.loadheader;
+module models.warehouses.entities.inbounds.loadheader;
 
 @safe:
-import models.warehouse;
+import models.warehouses;
 
 class DWMSInboundLoadHeaderEntity : DOOPEntity {
   mixin(EntityThis!("WMSInboundLoadHeaderEntity"));

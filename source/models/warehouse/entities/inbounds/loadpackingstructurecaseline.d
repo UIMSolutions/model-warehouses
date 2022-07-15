@@ -1,7 +1,7 @@
-module models.warehouse.entities.inbounds.loadpackingstructurecaseline;
+module models.warehouses.entities.inbounds.loadpackingstructurecaseline;
 
 @safe:
-import models.warehouse;
+import models.warehouses;
 
 class DWHSInboundLoadPackingStructureCaseLineEntity : DOOPEntity {
   mixin(EntityThis!("WHSInboundLoadPackingStructureCaseLineEntity"));
