@@ -1,2 +1,2 @@
-# model-warehouse
+# model-warehouses
 Model for warehouse management
