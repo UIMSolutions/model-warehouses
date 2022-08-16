@@ -11,13 +11,13 @@ class DWMSContainerBuildTemplate : DOOPEntity {
 
     this
       .addValues([
-        "isSplitPickingAllowed": StringAttribute, //
+        "isSplitPickingAllowed": BooleanAttribute, //
         "containerGroupId": UUIDAttribute, //
         "containerTemplateId": UUIDAttribute, //
         "containerTemplateQuery": StringAttribute, //
         "containerTemplateQueryType": StringAttribute, //
         "containerPackingStrategy": StringAttribute, //
-        "isContainerPackedByDirectiveUnit": StringAttribute, //
+        "isContainerPackedByDirectiveUnit": BooleanAttribute, //
         "containerTemplateSequenceNumber": StringAttribute, //
         "waveStepCode": StringAttribute, //
         "relationship_ContainerGroupRelationshipId": UUIDAttribute, //

@@ -23,7 +23,7 @@ class DWMSContainerTypeEntity : DOOPEntity {
         "containerLength": StringAttribute, //
         "containerVolume": StringAttribute, //
         "containerWidth": StringAttribute, //
-        "isContainerVolumeFlexible": StringAttribute, //
+        "isContainerVolumeFlexible": BooleanAttribute, //
         "containerTypeUnitSymbol": StringAttribute, //
         "firstContainerAttributeValue": StringAttribute, //
         "secondContainerAttributeValue": StringAttribute, //

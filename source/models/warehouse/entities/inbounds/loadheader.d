@@ -24,7 +24,7 @@ class DWMSInboundLoadHeaderEntity : DOOPEntity {
         "estimatedArrivalDateTime": StringAttribute, // 
         "inspectionSealNumber": StringAttribute, // 
         "loadDepth": StringAttribute, // 
-        "isLoadFloorStacked": StringAttribute, // 
+        "isLoadFloorStacked": BooleanAttribute, // 
         "loadHeight": StringAttribute, // 
         "loadExternalReferenceNumber": StringAttribute, // 
         "userDefinedField1": StringAttribute, // 
@@ -40,7 +40,7 @@ class DWMSInboundLoadHeaderEntity : DOOPEntity {
         "carRegistrationStateId": UUIDAttribute, // 
         "loadId": UUIDAttribute, // 
         "shippingCarrierVendorAccountNumber": StringAttribute, // 
-        "isLoadSplitShipConfirmAllowed": StringAttribute, // 
+        "isLoadSplitShipConfirmAllowed": BooleanAttribute, // 
         "backingTable_WHSLoadTableRelationshipId": UUIDAttribute, // 
         "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, // 
       ])
