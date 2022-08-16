@@ -11,14 +11,14 @@ class DWMSContainerMixingConstraintBaseEntity : DOOPEntity {
 
     this
       .addValues([
-        "constraintTableId": StringAttribute, //
+        "constraintTableId": UUIDAttribute, //
         "constraintTableName": StringAttribute, //
-        "containerBuildTemplateId": StringAttribute, //
-        "constraintFieldId": StringAttribute, //
+        "containerBuildTemplateId": UUIDAttribute, //
+        "constraintFieldId": UUIDAttribute, //
         "constraintFieldArrayIndex": StringAttribute, //
-        "relationship_ContainerBuildTemplateV2RelationshipId": StringAttribute, //
-        "backingTable_WHSContainerizationBreakRelationshipId": StringAttribute, //
-        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "relationship_ContainerBuildTemplateV2RelationshipId": UUIDAttribute, //
+        "backingTable_WHSContainerizationBreakRelationshipId": UUIDAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
       ])
       .registerPath("warehouse_containers.mixingconstraintbases");
   }

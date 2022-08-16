@@ -12,17 +12,17 @@ class DWMSContainerBuildTemplate : DOOPEntity {
     this
       .addValues([
         "isSplitPickingAllowed": StringAttribute, //
-        "containerGroupId": StringAttribute, //
-        "containerTemplateId": StringAttribute, //
+        "containerGroupId": UUIDAttribute, //
+        "containerTemplateId": UUIDAttribute, //
         "containerTemplateQuery": StringAttribute, //
         "containerTemplateQueryType": StringAttribute, //
         "containerPackingStrategy": StringAttribute, //
         "isContainerPackedByDirectiveUnit": StringAttribute, //
         "containerTemplateSequenceNumber": StringAttribute, //
         "waveStepCode": StringAttribute, //
-        "relationship_ContainerGroupRelationshipId": StringAttribute, //
-        "backingTable_WHSContainerizationTableRelationshipId": StringAttribute, //
-        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "relationship_ContainerGroupRelationshipId": UUIDAttribute, //
+        "backingTable_WHSContainerizationTableRelationshipId": UUIDAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
       ])
       .registerPath("warehouse_containers.buildtemplates");
   }

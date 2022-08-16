@@ -11,7 +11,7 @@ class DWMSContainerTypeEntity : DOOPEntity {
 
     this
       .addValues([
-        "typeId": StringAttribute, //
+        "typeId": UUIDAttribute, //
         "typeDescription": StringAttribute, //
         "maximumContainerizationHeight": StringAttribute, //
         "maximumContainerizationLength": StringAttribute, //
@@ -29,13 +29,13 @@ class DWMSContainerTypeEntity : DOOPEntity {
         "secondContainerAttributeValue": StringAttribute, //
         "thirdContainerAttributeValue": StringAttribute, //
         "fourthContainerAttributeValue": StringAttribute, //
-        "relationship_UnitOfMeasureRelationshipId": StringAttribute, //
-        "relationship_FirstContainerAttributeRelationshipId": StringAttribute, //
-        "relationship_SecondContainerAttributeRelationshipId": StringAttribute, //
-        "relationship_ThirdContainerAttributeRelationshipId": StringAttribute, //
-        "relationship_FourthContainerAttributeRelationshipId": StringAttribute, //
-        "backingTable_WHSContainerTypeRelationshipId": StringAttribute, //
-        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "relationship_UnitOfMeasureRelationshipId": UUIDAttribute, //
+        "relationship_FirstContainerAttributeRelationshipId": UUIDAttribute, //
+        "relationship_SecondContainerAttributeRelationshipId": UUIDAttribute, //
+        "relationship_ThirdContainerAttributeRelationshipId": UUIDAttribute, //
+        "relationship_FourthContainerAttributeRelationshipId": UUIDAttribute, //
+        "backingTable_WHSContainerTypeRelationshipId": UUIDAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
       ])
       .registerPath("warehouse_containers.types");
   }

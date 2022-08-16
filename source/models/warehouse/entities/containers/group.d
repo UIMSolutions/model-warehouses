@@ -12,9 +12,9 @@ class DWMSContainerGroupEntity : DOOPEntity {
     this
       .addValues([
         "containerGroupDescription": StringAttribute, //
-        "containerGroupId": StringAttribute, //
-        "backingTable_WHSContainerGroupRelationshipId": StringAttribute, //
-        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "containerGroupId": UUIDAttribute, //
+        "backingTable_WHSContainerGroupRelationshipId": UUIDAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
       ])
       .registerPath("warehouse_containers.groups");
   }

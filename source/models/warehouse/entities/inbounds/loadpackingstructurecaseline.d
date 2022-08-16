@@ -11,7 +11,7 @@ class DWHSInboundLoadPackingStructureCaseLineEntity : DOOPEntity {
 
     this
       .addValues([
-        "inboundShipmentId": StringAttribute, //
+        "inboundShipmentId": UUIDAttribute, //
         "packingStructureLicensePlateNumber": StringAttribute, //
         "description": StringAttribute, //
         "purchaseOrderNumber": StringAttribute, //
@@ -19,18 +19,18 @@ class DWHSInboundLoadPackingStructureCaseLineEntity : DOOPEntity {
         "quantity": StringAttribute, //
         "capturedWeight": StringAttribute, //
         "unitSymbol": StringAttribute, //
-        "productColorId": StringAttribute, //
-        "productSizeId": StringAttribute, //
-        "productConfigurationId": StringAttribute, //
-        "productStyleId": StringAttribute, //
-        "productVersionId": StringAttribute, //
+        "productColorId": UUIDAttribute, //
+        "productSizeId": UUIDAttribute, //
+        "productConfigurationId": UUIDAttribute, //
+        "productStyleId": UUIDAttribute, //
+        "productVersionId": UUIDAttribute, //
         "itemBatchNumber": StringAttribute, //
         "itemBatchExpirationDate": StringAttribute, //
         "itemSerialNumber": StringAttribute, //
         "purchaseOrderLineNumber": StringAttribute, //
-        "relationship_LoadPackingStructureCaseRelationshipId": StringAttribute, //
-        "backingTable_WHSASNItemRelationshipId": StringAttribute, //
-        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "relationship_LoadPackingStructureCaseRelationshipId": UUIDAttribute, //
+        "backingTable_WHSASNItemRelationshipId": UUIDAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
       ])
       .registerPath("warehouse_inbounds.loadpackingstructurecaselines");
   }

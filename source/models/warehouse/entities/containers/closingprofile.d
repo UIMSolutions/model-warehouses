@@ -11,10 +11,10 @@ class DContainerClosingProfileEntity : DOOPEntity {
 
     this
       .addValues([
-        "profileId": StringAttribute, //
-        "finalShipmentWarehouseLocationId": StringAttribute, //
+        "profileId": UUIDAttribute, //
+        "finalShipmentWarehouseLocationId": UUIDAttribute, //
         "profileDescription": StringAttribute, //
-        "profileWarehouseId": StringAttribute, //
+        "profileWarehouseId": UUIDAttribute, //
         "processAt": StringAttribute, //
         "isContainerContentPrintingEnabled": StringAttribute, //
         "isPackingSlipPrintingEnabled": StringAttribute, //
@@ -24,18 +24,18 @@ class DContainerClosingProfileEntity : DOOPEntity {
         "isContainerManifestedAtClosing": StringAttribute, //
         "manifestingContainerPolicy": StringAttribute, //
         "containerClosingAutoReleasePolicy": StringAttribute, //
-        "packedContainerPickingWarehouseWorkTemplateId": StringAttribute, //
+        "packedContainerPickingWarehouseWorkTemplateId": UUIDAttribute, //
         "manifestRequirementsForContainerGroup": StringAttribute, //
         "packedContainerPickingWarehouseWorkTemplateWorkOrderType": StringAttribute, //
-        "defaultOutboundSortingWarehouseLocationId": StringAttribute, //
+        "defaultOutboundSortingWarehouseLocationId": UUIDAttribute, //
         "printContainerShippingLabelRule": StringAttribute, //
         "containerShippingLabelPrinterName": StringAttribute, //
-        "relationship_WarehouseRelationshipId": StringAttribute, //
-        "relationship_FinalShipmentWarehouseLocationRelationshipId": StringAttribute, //
-        "relationship_WeightUnitOfMeasureRelationshipId": StringAttribute, //
-        "relationship_DefaultOutboundSortingWarehouseLocationRelationshipId": StringAttribute, //
-        "backingTable_WHSCloseContainerProfileRelationshipId": StringAttribute, //
-        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "relationship_WarehouseRelationshipId": UUIDAttribute, //
+        "relationship_FinalShipmentWarehouseLocationRelationshipId": UUIDAttribute, //
+        "relationship_WeightUnitOfMeasureRelationshipId": UUIDAttribute, //
+        "relationship_DefaultOutboundSortingWarehouseLocationRelationshipId": UUIDAttribute, //
+        "backingTable_WHSCloseContainerProfileRelationshipId": UUIDAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
       ])
       .registerPath("warehouse_containers.closingprofiles");
   }

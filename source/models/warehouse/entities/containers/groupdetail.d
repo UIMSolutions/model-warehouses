@@ -11,14 +11,14 @@ class DWMSContainerGroupDetailEntity : DOOPEntity {
 
     this
       .addValues([
-        "containerTypeId": StringAttribute, //
+        "containerTypeId": UUIDAttribute, //
         "containerUtilizationPercentage": StringAttribute, //
-        "containerGroupId": StringAttribute, //
+        "containerGroupId": UUIDAttribute, //
         "containerGroupDetailSequenceNumber": StringAttribute, //
-        "relationship_ContainerGroupRelationshipId": StringAttribute, //
-        "relationship_ContainerTypeRelationshipId": StringAttribute, //
-        "backingTable_WHSContainerGroupLineRelationshipId": StringAttribute, //
-        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, //
+        "relationship_ContainerGroupRelationshipId": UUIDAttribute, //
+        "relationship_ContainerTypeRelationshipId": UUIDAttribute, //
+        "backingTable_WHSContainerGroupLineRelationshipId": UUIDAttribute, //
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //
       ])
       .registerPath("warehouse_containers.groupdetails");
   }

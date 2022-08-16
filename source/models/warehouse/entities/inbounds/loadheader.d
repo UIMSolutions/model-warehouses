@@ -15,12 +15,12 @@ class DWMSInboundLoadHeaderEntity : DOOPEntity {
         "aactualGrossWeight": StringAttribute, // 
         "actualNetWeight": StringAttribute, // 
         "actualTareWeight": StringAttribute, // 
-        "masterBillOfLadingId": StringAttribute, // 
+        "masterBillOfLadingId": UUIDAttribute, // 
         "transportationBookingNumber": StringAttribute, // 
-        "brokerId": StringAttribute, // 
+        "brokerId": UUIDAttribute, // 
         "carNumber": StringAttribute, // 
-        "shippingCarrierGroupId": StringAttribute, // 
-        "shippingCarrierServiceId": StringAttribute, // 
+        "shippingCarrierGroupId": UUIDAttribute, // 
+        "shippingCarrierServiceId": UUIDAttribute, // 
         "estimatedArrivalDateTime": StringAttribute, // 
         "inspectionSealNumber": StringAttribute, // 
         "loadDepth": StringAttribute, // 
@@ -37,12 +37,12 @@ class DWMSInboundLoadHeaderEntity : DOOPEntity {
         "trailerNumber": StringAttribute, // 
         "vesselName": StringAttribute, // 
         "voyageNumber": StringAttribute, // 
-        "carRegistrationStateId": StringAttribute, // 
-        "loadId": StringAttribute, // 
+        "carRegistrationStateId": UUIDAttribute, // 
+        "loadId": UUIDAttribute, // 
         "shippingCarrierVendorAccountNumber": StringAttribute, // 
         "isLoadSplitShipConfirmAllowed": StringAttribute, // 
-        "backingTable_WHSLoadTableRelationshipId": StringAttribute, // 
-        "relationship_PrimaryCompanyContextRelationshipId": StringAttribute, // 
+        "backingTable_WHSLoadTableRelationshipId": UUIDAttribute, // 
+        "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, // 
       ])
       .registerPath("warehouse_inbounds.loadheaders");
   }
