@@ -16,12 +16,12 @@ class DContainerClosingProfileEntity : DOOPEntity {
         "profileDescription": StringAttribute, //
         "profileWarehouseId": UUIDAttribute, //
         "processAt": StringAttribute, //
-        "isContainerContentPrintingEnabled": StringAttribute, //
-        "isPackingSlipPrintingEnabled": StringAttribute, //
+        "isContainerContentPrintingEnabled": BooleanAttribute, //
+        "isPackingSlipPrintingEnabled": BooleanAttribute, //
         "weightUnitSymbol": StringAttribute, //
         "containerClosingWorkCreationProcess": StringAttribute, //
         "manifestingShipmentPolicy": StringAttribute, //
-        "isContainerManifestedAtClosing": StringAttribute, //
+        "isContainerManifestedAtClosing": BooleanAttribute, //
         "manifestingContainerPolicy": StringAttribute, //
         "containerClosingAutoReleasePolicy": StringAttribute, //
         "packedContainerPickingWarehouseWorkTemplateId": UUIDAttribute, //
