@@ -6,7 +6,7 @@ import models.warehouses;
 class DWHSInboundLoadPackingStructureCaseLineEntity : DOOPEntity {
   mixin(EntityThis!("WHSInboundLoadPackingStructureCaseLineEntity"));
 
-  override void initialize() {
+  override void initialize(DConfigurationValue configSettings = null) {
     super.initialize(configSettings);
 
     this

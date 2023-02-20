@@ -6,7 +6,7 @@ import models.warehouses;
 class DWMSInboundLoadHeaderEntity : DOOPEntity {
   mixin(EntityThis!("WMSInboundLoadHeaderEntity"));
 
-  override void initialize() {
+  override void initialize(DConfigurationValue configSettings = null) {
     super.initialize(configSettings);
 
     this

@@ -6,7 +6,7 @@ import models.warehouses;
 class DWMSContainerGroupEntity : DOOPEntity {
   mixin(EntityThis!("WMSContainerGroupEntity"));
 
-  override void initialize() {
+  override void initialize(DConfigurationValue configSettings = null) {
     super.initialize(configSettings);
 
     this

@@ -6,7 +6,7 @@ import models.warehouses;
 class DContainerClosingProfileEntity : DOOPEntity {
   mixin(EntityThis!("ContainerClosingProfileEntity"));
 
-  override void initialize() {
+  override void initialize(DConfigurationValue configSettings = null) {
     super.initialize(configSettings);
 
     this
