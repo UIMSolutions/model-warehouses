@@ -7,7 +7,7 @@ class DWMSInboundLoadHeaderEntity : DOOPEntity {
   mixin(EntityThis!("WMSInboundLoadHeaderEntity"));
 
   override void initialize() {
-    super.initialize;
+    super.initialize(configSettings);
 
     this
       .addValues([

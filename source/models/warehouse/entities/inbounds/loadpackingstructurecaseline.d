@@ -7,7 +7,7 @@ class DWHSInboundLoadPackingStructureCaseLineEntity : DOOPEntity {
   mixin(EntityThis!("WHSInboundLoadPackingStructureCaseLineEntity"));
 
   override void initialize() {
-    super.initialize;
+    super.initialize(configSettings);
 
     this
       .addValues([

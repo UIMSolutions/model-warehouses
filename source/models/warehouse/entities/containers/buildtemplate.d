@@ -7,7 +7,7 @@ class DWMSContainerBuildTemplate : DOOPEntity {
   mixin(EntityThis!("WMSContainerBuildTemplate"));
 
   override void initialize() {
-    super.initialize;
+    super.initialize(configSettings);
 
     this
       .addValues([

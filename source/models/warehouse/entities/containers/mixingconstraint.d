@@ -7,7 +7,7 @@ class DWMSContainerMixingConstraintEntity : DOOPEntity {
   mixin(EntityThis!("WMSContainerMixingConstraintEntity"));
 
   override void initialize() {
-    super.initialize;
+    super.initialize(configSettings);
 
     this
       .addValues([

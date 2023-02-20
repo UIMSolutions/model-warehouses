@@ -7,7 +7,7 @@ class DContainerClosingProfileEntity : DOOPEntity {
   mixin(EntityThis!("ContainerClosingProfileEntity"));
 
   override void initialize() {
-    super.initialize;
+    super.initialize(configSettings);
 
     this
       .addValues([
