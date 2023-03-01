@@ -42,8 +42,7 @@ class DContainerClosingProfileEntity : DOOPEntity {
 }
 mixin(EntityCalls!("ContainerClosingProfileEntity"));
 
-version(test_model_warehouse) {
-  unittest {
+version(test_model_warehouse) { unittest {
     assert(ContainerClosingProfileEntity);
   
     auto entity = ContainerClosingProfileEntity;

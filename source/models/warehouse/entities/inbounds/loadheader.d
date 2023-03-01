@@ -49,8 +49,7 @@ class DWMSInboundLoadHeaderEntity : DOOPEntity {
 }
 mixin(EntityCalls!("WMSInboundLoadHeaderEntity"));
 
-version(test_model_warehouse) {
-  unittest {
+version(test_model_warehouse) { unittest {
     assert(WMSInboundLoadHeaderEntity);
   
     auto entity = WMSInboundLoadHeaderEntity;

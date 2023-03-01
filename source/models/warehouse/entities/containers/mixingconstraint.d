@@ -23,8 +23,7 @@ class DWMSContainerMixingConstraintEntity : DOOPEntity {
 }
 mixin(EntityCalls!("WMSContainerMixingConstraintEntity"));
 
-version(test_model_warehouse) {
-  unittest {
+version(test_model_warehouse) { unittest {
     assert(WMSContainerMixingConstraintEntity);
   
     auto entity = WMSContainerMixingConstraintEntity;

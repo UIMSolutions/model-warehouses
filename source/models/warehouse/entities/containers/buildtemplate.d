@@ -29,8 +29,7 @@ class DWMSContainerBuildTemplate : DOOPEntity {
 }
 mixin(EntityCalls!("WMSContainerBuildTemplate"));
 
-version(test_model_warehouse) {
-  unittest {
+version(test_model_warehouse) { unittest {
     assert(WMSContainerBuildTemplate);
   
     auto entity = WMSContainerBuildTemplate;

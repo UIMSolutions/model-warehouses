@@ -37,8 +37,7 @@ class DWHSInboundLoadPackingStructureCaseLineEntity : DOOPEntity {
 }
 mixin(EntityCalls!("WHSInboundLoadPackingStructureCaseLineEntity"));
 
-version(test_model_warehouse) {
-  unittest {
+version(test_model_warehouse) { unittest {
     assert(WHSInboundLoadPackingStructureCaseLineEntity);
   
     auto entity = WHSInboundLoadPackingStructureCaseLineEntity;

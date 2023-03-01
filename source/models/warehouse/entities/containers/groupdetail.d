@@ -25,8 +25,7 @@ class DWMSContainerGroupDetailEntity : DOOPEntity {
 }
 mixin(EntityCalls!("WMSContainerGroupDetailEntity"));
 
-version(test_model_warehouse) {
-  unittest {
+version(test_model_warehouse) { unittest {
     assert(WMSContainerGroupDetailEntity);
   
     auto entity = WMSContainerGroupDetailEntity;
