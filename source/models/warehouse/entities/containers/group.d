@@ -3,7 +3,7 @@ module models.warehouses.entities.containers.group;
 @safe:
 import models.warehouses;
 
-class DWMSContainerGroupEntity : DOOPEntity {
+class DWMSContainerGroupEntity : DEntity {
   mixin(EntityThis!("WMSContainerGroupEntity"));
 
   override void initialize(DConfigurationValue configSettings = null) {

@@ -3,7 +3,7 @@ module models.warehouses.entities.containers.type;
 @safe:
 import models.warehouses;
 
-class DWMSContainerTypeEntity : DOOPEntity {
+class DWMSContainerTypeEntity : DEntity {
   mixin(EntityThis!("WMSContainerTypeEntity"));
 
   override void initialize(DConfigurationValue configSettings = null) {

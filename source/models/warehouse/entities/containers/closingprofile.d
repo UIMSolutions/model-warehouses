@@ -3,7 +3,7 @@ module models.warehouses.entities.containers.closingprofile;
 @safe:
 import models.warehouses;
 
-class DContainerClosingProfileEntity : DOOPEntity {
+class DContainerClosingProfileEntity : DEntity {
   mixin(EntityThis!("ContainerClosingProfileEntity"));
 
   override void initialize(DConfigurationValue configSettings = null) {

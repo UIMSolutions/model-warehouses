@@ -3,7 +3,7 @@ module models.warehouses.entities.inbounds.loadpackingstructurecaseline;
 @safe:
 import models.warehouses;
 
-class DWHSInboundLoadPackingStructureCaseLineEntity : DOOPEntity {
+class DWHSInboundLoadPackingStructureCaseLineEntity : DEntity {
   mixin(EntityThis!("WHSInboundLoadPackingStructureCaseLineEntity"));
 
   override void initialize(DConfigurationValue configSettings = null) {

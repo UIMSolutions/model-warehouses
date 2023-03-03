@@ -3,7 +3,7 @@ module models.warehouses.entities.containers.buildtemplate;
 @safe:
 import models.warehouses;
 
-class DWMSContainerBuildTemplate : DOOPEntity {
+class DWMSContainerBuildTemplate : DEntity {
   mixin(EntityThis!("WMSContainerBuildTemplate"));
 
   override void initialize(DConfigurationValue configSettings = null) {

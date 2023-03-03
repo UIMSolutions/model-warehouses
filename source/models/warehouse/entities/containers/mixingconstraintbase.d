@@ -3,7 +3,7 @@ module models.warehouses.entities.containers.mixingconstraintbase;
 @safe:
 import models.warehouses;
 
-class DWMSContainerMixingConstraintBaseEntity : DOOPEntity {
+class DWMSContainerMixingConstraintBaseEntity : DEntity {
   mixin(EntityThis!("WMSContainerMixingConstraintBaseEntity"));
 
   override void initialize(DConfigurationValue configSettings = null) {

@@ -3,7 +3,7 @@ module models.warehouses.entities.inbounds.loadheader;
 @safe:
 import models.warehouses;
 
-class DWMSInboundLoadHeaderEntity : DOOPEntity {
+class DWMSInboundLoadHeaderEntity : DEntity {
   mixin(EntityThis!("WMSInboundLoadHeaderEntity"));
 
   override void initialize(DConfigurationValue configSettings = null) {
