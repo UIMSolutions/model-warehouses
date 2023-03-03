@@ -1,3 +1,3 @@
-module models.warehouses.entities.movementtype;
+module models.warehouses.entities.inventories.movementtype;
 
 
